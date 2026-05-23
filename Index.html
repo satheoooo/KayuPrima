@@ -1,14 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Kayu Ku</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 
-</body>
+  <!-- Navbar -->
+  <nav class="navbar">
 
+    <div class="logo">
+      KayuPrima
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#">Katalog Pohon</a></li>
+      <li><a href="#">Pembeli Premium</a></li>
+    </ul>
+
+    <button class="login-btn">
+      Masuk
+    </button>
+
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <!-- Left -->
+    <div class="hero-left">
+
+      <span class="badge">
+        Kalkulator Valuasi Kayu #1 di Bumi
+      </span>
+
+      <h1>
+        Jangan Jual Kayu Anda Sebelum Tahu
+        <span>Nilai Sebenarnya.</span>
+      </h1>
+
+      <p>
+        Hitung estimasi nilai wajar pasar untuk pohon Jati, Mahoni, Sengon, dan lainnya berdasarkan data harga real-time. Cepat, akurat, dan 100% gratis untuk pemilik lahan.
+      </p>
+
+      <div class="hero-features">
+
+        <div class="feature">
+          ⚡ Kalkulasi Cepat
+        </div>
+
+        <div class="feature">
+          🛡️ Data Aman
+        </div>
+
+        <div class="feature">
+          🤝 Tanpa Perantara
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Right -->
+    <div class="hero-right">
+
+      <div class="calculator-card">
+
+        <h3>Kalkulator Estimasi Harga Kayu</h3>
+
+        <label>Jenis Kayu</label>
+        <select>
+          <option>Jati</option>
+          <option>Mahoni</option>
+          <option>Sengon</option>
+          <option>Akasia</option>
+          <option>Kayu Karet</option>
+          <option>Meranti</option>
+          <option>Gmelina(Jati Putih)</option>
+        </select>
+
+        <div class="input-group">
+
+        <div class="input-field">
+            <label>Diameter Batang</label>
+            <input type="number" placeholder="Diameter Batang">
+        </div>
+
+        <div class="input-field">
+            <label>Tinggi Batang</label>
+            <input type="number" placeholder="Tinggi Batang">
+        </div>
+
+        </div>
+
+        <label>Jumlah Pohon</label>
+        <input type="number" placeholder="Jumlah Pohon">
+
+        <button class="calculate-btn">
+          Hitung Estimasi Nilai
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
 </html>
