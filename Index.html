@@ -8,15 +8,21 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
 </head>
 <body>
 
   <!-- Navbar -->
   <nav class="navbar">
 
-    <div class="logo">
-      KayuPrima
-    </div>
+  <div class="logo">
+    KayuPrima
+  </div>
+
+  <div class="nav-right">
 
     <ul class="nav-links">
       <li><a href="#">Katalog Pohon</a></li>
@@ -27,10 +33,14 @@
       Masuk
     </button>
 
-  </nav>
+  </div>
+
+</nav>
 
   <!-- Hero Section -->
   <section class="hero">
+
+    <div class="mouse-glow"></div>
 
     <!-- Left -->
     <div class="hero-left">
@@ -48,21 +58,24 @@
         Hitung estimasi nilai wajar pasar untuk pohon Jati, Mahoni, Sengon, dan lainnya berdasarkan data harga real-time. Cepat, akurat, dan 100% gratis untuk pemilik lahan.
       </p>
 
-      <div class="hero-features">
+    <div class="hero-features">
 
-        <div class="feature">
-          ⚡ Kalkulasi Cepat
-        </div>
-
-        <div class="feature">
-          🛡️ Data Aman
-        </div>
-
-        <div class="feature">
-          🤝 Tanpa Perantara
-        </div>
-
+      <div class="feature">
+        <i class="fa-solid fa-bolt"></i>
+        Kalkulasi Cepat
       </div>
+
+      <div class="feature">
+        <i class="fa-solid fa-shield-halved"></i>
+        Data Aman
+      </div>
+
+      <div class="feature">
+        <i class="fa-solid fa-handshake"></i>
+        Tanpa Perantara
+      </div>
+
+</div>
 
     </div>
 
@@ -81,7 +94,7 @@
           <option>Akasia</option>
           <option>Kayu Karet</option>
           <option>Meranti</option>
-          <option>Gmelina(Jati Putih)</option>
+          <option>Gmelina (Jati Putih)</option>
         </select>
 
         <div class="input-group">
@@ -106,10 +119,211 @@
         </button>
 
       </div>
-
+        
     </div>
 
   </section>
 
+<!-- Price Ticker -->
+<section class="price-ticker">
+
+  <div class="ticker-track">
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Jati: Rp 5.000.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Mahoni: Rp 2.500.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Meranti: Rp 3.500.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Sengon: Rp 1.200.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Akasia: Rp 2.800.000/m³
+    </div>
+
+    <!-- duplicate untuk looping smooth -->
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Jati: Rp 5.000.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Mahoni: Rp 2.500.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Meranti: Rp 3.500.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Sengon: Rp 1.200.000/m³
+    </div>
+
+    <div class="ticker-item">
+      <i class="fa-solid fa-seedling"></i>
+      Akasia: Rp 2.800.000/m³
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Premium Buyer Section -->
+<section class="premium-section">
+
+  <div class="premium-header">
+
+    <span class="premium-badge">
+      Pencocokan Premium
+    </span>
+
+    <h2>
+      Pembeli Langsung yang Mencari Kayu Anda Hari Ini
+    </h2>
+
+    <p>
+      Terhubung secara instan dengan kontraktor dan pedagang kayu terverifikasi.
+    </p>
+
+  </div>
+
+  <div class="buyer-grid">
+
+<!-- Card 1 -->
+<div class="buyer-card">
+
+  <div class="buyer-top">
+
+    <div class="buyer-icon">
+      <i class="fa-solid fa-building"></i>
+    </div>
+
+    <h3>CV Karya Jati Mebel</h3>
+
+  </div>
+
+  <div class="buyer-info">
+
+    <p>
+      <i class="fa-solid fa-tree"></i>
+      <strong>Kebutuhan:</strong> Kayu Jati
+    </p>
+
+    <p>
+      <i class="fa-solid fa-box"></i>
+      <strong>Target:</strong> 50+ Pohon
+    </p>
+
+    <p>
+      <i class="fa-solid fa-location-dot"></i>
+      <strong>Lokasi:</strong> Jepara, Jawa Tengah
+    </p>
+
+  </div>
+
+  <button class="buyer-btn">
+    Hubungi via WhatsApp
+  </button>
+
+</div>
+
+<!-- Card 2 -->
+<div class="buyer-card">
+
+  <div class="buyer-top">
+
+    <div class="buyer-icon">
+      <i class="fa-solid fa-building"></i>
+    </div>
+
+    <h3>PT Mahoni Indo Ekspor</h3>
+
+  </div>
+
+  <div class="buyer-info">
+
+    <p>
+      <i class="fa-solid fa-tree"></i>
+      <strong>Kebutuhan:</strong> Kayu Mahoni
+    </p>
+
+    <p>
+      <i class="fa-solid fa-box"></i>
+      <strong>Target:</strong> 100+ Pohon
+    </p>
+
+    <p>
+      <i class="fa-solid fa-location-dot"></i>
+      <strong>Lokasi:</strong> Pasuruan, Jawa Timur
+    </p>
+
+  </div>
+
+  <button class="buyer-btn">
+    Hubungi via WhatsApp
+  </button>
+
+</div>
+
+<!-- Card 3 -->
+<div class="buyer-card">
+
+  <div class="buyer-top">
+
+    <div class="buyer-icon">
+      <i class="fa-solid fa-building"></i>
+    </div>
+
+    <h3>Sengon Lestari Jaya</h3>
+
+  </div>
+
+  <div class="buyer-info">
+
+    <p>
+      <i class="fa-solid fa-tree"></i>
+      <strong>Kebutuhan:</strong> Kayu Sengon
+    </p>
+
+    <p>
+      <i class="fa-solid fa-box"></i>
+      <strong>Target:</strong> 200+ Pohon
+    </p>
+
+    <p>
+      <i class="fa-solid fa-location-dot"></i>
+      <strong>Lokasi:</strong> Joglo, Jawa Tengah
+    </p>
+
+  </div>
+
+  <button class="buyer-btn">
+    Hubungi via WhatsApp
+  </button>
+
+</div>
+
+  </div>
+
+</section>
+  <!-- JS -->
+  <script src="js/script.js"></script>
 </body>
 </html>
