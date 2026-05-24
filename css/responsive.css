@@ -1,0 +1,131 @@
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px) {
+
+  .navbar,
+  .hero,
+  .premium-section,
+  .footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero-left h1 {
+    font-size: 56px;
+  }
+
+  .calculator-card {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .buyer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar,
+  .hero,
+  .premium-section,
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .hero {
+    padding-top: 60px;
+
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .hero-left h1 {
+    font-size: 42px;
+
+    line-height: 1.1;
+  }
+
+  .hero-left p {
+    font-size: 16px;
+  }
+
+  .hero-features {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .calculator-card {
+    width: 100%;
+    padding: 28px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .premium-header h2 {
+    font-size: 40px;
+  }
+
+  .premium-header p {
+    font-size: 16px;
+  }
+
+  .buyer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .buyer-card {
+    padding: 28px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+
+    gap: 48px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+
+    text-align: center;
+  }
+
+}
