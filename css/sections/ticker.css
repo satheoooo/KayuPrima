@@ -18,7 +18,7 @@
 
   width: max-content;
 
-animation: tickerMove 32s linear infinite;
+  animation: tickerMove 32s linear infinite;
 }
 
 .ticker-item {

@@ -58,6 +58,7 @@
 
   transition: 0.3s;
 }
+
 .login-btn:hover {
   background-color: #244824;
 }
