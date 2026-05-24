@@ -1,0 +1,16 @@
+/* KayuPrima Main Stylesheet */
+
+/* Third Party Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+/* Theme Sections */
+@import url("sections/base.css");
+@import url("sections/navbar.css");
+@import url("sections/hero.css");
+@import url("sections/ticker.css");
+@import url("sections/premium.css");
+@import url("sections/footer.css");
+@import url("sections/login.css");
+
+/* Responsive Styles (Should be last) */
+@import url("sections/responsive.css");
