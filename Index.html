@@ -9,24 +9,26 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar">
+  <nav class="navbar flex justify-between items-center px-[160px] py-[18px] bg-white">
 
-  <div class="logo">
+  <div class="logo text-[22px] font-bold text-[#2F5E2F]">
     KayuPrima
   </div>
 
-  <div class="nav-right">
+  <div class="nav-right flex items-center gap-8">
 
-    <ul class="nav-links">
-      <li><a href="#">Katalog Pohon</a></li>
-      <li><a href="#">Pembeli Premium</a></li>
+    <ul class="nav-links flex gap-8 list-none">
+      <li><a href="#" class="text-[#4A4A4A] font-medium hover:text-[#2F5E2F] transition">Pembeli Premium</a></li>
     </ul>
 
-    <button class="login-btn">
+    <button class="login-btn px-6 py-3 rounded-full bg-[#2F5E2F] text-white hover:bg-[#244824] transition">
       Masuk
     </button>
 
