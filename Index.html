@@ -50,39 +50,39 @@
 </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero flex justify-between items-center px-[160px] py-[80px] relative overflow-hidden isolate">
 
     <div class="mouse-glow"></div>
 
     <!-- Left -->
-    <div class="hero-left">
+    <div class="hero-left relative z-[2] max-w-[600px]">
 
-      <span class="badge">
+      <span class="badge inline-block bg-[#e6f0e6] text-[#2f5e2f] px-[18px] py-[10px] rounded-full text-[14px] mb-[24px]">
         Kalkulator Valuasi Kayu #1 di Bumi
       </span>
 
-      <h1>
+      <h1 class="text-[64px] font-bold leading-[1.05] tracking-[-2px] max-w-[700px] mb-[32px] text-[#17201c]">
         Jangan Jual Kayu Anda Sebelum Tahu
-        <span>Nilai Sebenarnya.</span>
+        <span class="text-[#2f5e2f]">Nilai Sebenarnya.</span>
       </h1>
 
-      <p>
+      <p class="text-[18px] leading-[1.8] text-[#5f6662] max-w-[680px] mb-[32px]">
         Hitung estimasi nilai wajar pasar untuk pohon Jati, Mahoni, Sengon, dan lainnya berdasarkan data harga real-time. Cepat, akurat, dan 100% gratis untuk pemilik lahan.
       </p>
 
-    <div class="hero-features">
+    <div class="hero-features flex gap-[16px]">
 
-      <div class="feature">
+      <div class="feature flex items-center gap-[8px] px-[18px] py-[12px] bg-[#2F5E2F1F] border border-[#2F5E2F2E] rounded-full text-[#2f5e2f] text-[14px] font-medium shadow-[0_4px_12px_rgba(47,94,47,0.08)]">
         <i class="fa-solid fa-bolt"></i>
         Kalkulasi Cepat
       </div>
 
-      <div class="feature">
+      <div class="feature flex items-center gap-[8px] px-[18px] py-[12px] bg-[#2F5E2F1F] border border-[#2F5E2F2E] rounded-full text-[#2f5e2f] text-[14px] font-medium shadow-[0_4px_12px_rgba(47,94,47,0.08)]">
         <i class="fa-solid fa-shield-halved"></i>
         Data Aman
       </div>
 
-      <div class="feature">
+      <div class="feature flex items-center gap-[8px] px-[18px] py-[12px] bg-[#2F5E2F1F] border border-[#2F5E2F2E] rounded-full text-[#2f5e2f] text-[14px] font-medium shadow-[0_4px_12px_rgba(47,94,47,0.08)]">
         <i class="fa-solid fa-handshake"></i>
         Tanpa Perantara
       </div>
@@ -92,14 +92,14 @@
     </div>
 
     <!-- Right -->
-    <div class="hero-right">
+    <div class="hero-right relative z-[2]">
 
-      <div class="calculator-card">
+      <div class="calculator-card w-[430px] bg-white p-[36px] rounded-[24px] shadow-[0_8px_24px_rgba(0,0,0,0.06)]">
 
-        <h3>Kalkulator Estimasi Harga Kayu</h3>
+        <h3 class="text-[20px] font-semibold mb-[32px]">Kalkulator Estimasi Harga Kayu</h3>
 
-        <label>Jenis Kayu</label>
-        <select>
+        <label class="block text-[14px] font-medium mb-[10px] text-[#555]">Jenis Kayu</label>
+        <select class="w-full px-[16px] py-[14px] mb-[16px] rounded-[14px] border border-[#e2e2e2] text-[14px] outline-none focus:border-[#2f5e2f]">
           <option>Jati</option>
           <option>Mahoni</option>
           <option>Sengon</option>
@@ -109,24 +109,24 @@
           <option>Gmelina (Jati Putih)</option>
         </select>
 
-        <div class="input-group">
+        <div class="input-group flex gap-[16px]">
 
-        <div class="input-field">
-            <label>Diameter Batang</label>
-            <input type="number" placeholder="Diameter Batang">
+        <div class="input-field w-full">
+            <label class="block text-[14px] font-medium mb-[10px] text-[#555]">Diameter Batang</label>
+            <input type="number" placeholder="Diameter Batang" class="w-full px-[16px] py-[14px] mb-[16px] rounded-[14px] border border-[#e2e2e2] text-[14px] outline-none focus:border-[#2f5e2f]">
         </div>
 
-        <div class="input-field">
-            <label>Tinggi Batang</label>
-            <input type="number" placeholder="Tinggi Batang">
+        <div class="input-field w-full">
+            <label class="block text-[14px] font-medium mb-[10px] text-[#555]">Tinggi Batang</label>
+            <input type="number" placeholder="Tinggi Batang" class="w-full px-[16px] py-[14px] mb-[16px] rounded-[14px] border border-[#e2e2e2] text-[14px] outline-none focus:border-[#2f5e2f]">
         </div>
 
         </div>
 
-        <label>Jumlah Pohon</label>
-        <input type="number" placeholder="Jumlah Pohon">
+        <label class="block text-[14px] font-medium mb-[10px] text-[#555]">Jumlah Pohon</label>
+        <input type="number" placeholder="Jumlah Pohon" class="w-full px-[16px] py-[14px] mb-[16px] rounded-[14px] border border-[#e2e2e2] text-[14px] outline-none focus:border-[#2f5e2f]">
 
-        <button class="calculate-btn">
+        <button class="calculate-btn w-full p-[16px] bg-[#2f5e2f] text-white border-none rounded-[14px] text-[15px] font-semibold cursor-pointer transition-all duration-300 hover:bg-[#244824]">
           Hitung Estimasi Nilai
         </button>
 
@@ -137,58 +137,58 @@
   </section>
 
 <!-- Price Ticker -->
-<section class="price-ticker">
+<section class="price-ticker w-full overflow-hidden bg-white border-y border-[#e5e5e5] py-[14px]">
 
-  <div class="ticker-track">
+  <div class="ticker-track flex gap-[48px] w-max">
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Jati: Rp 5.000.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Mahoni: Rp 2.500.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Meranti: Rp 3.500.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Sengon: Rp 1.200.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Akasia: Rp 2.800.000/m³
     </div>
 
     <!-- duplicate untuk looping smooth -->
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Jati: Rp 5.000.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Mahoni: Rp 2.500.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Meranti: Rp 3.500.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Sengon: Rp 1.200.000/m³
     </div>
 
-    <div class="ticker-item">
+    <div class="ticker-item text-[15px] font-medium text-[#2f5e2f] whitespace-nowrap">
       <i class="fa-solid fa-seedling"></i>
       Akasia: Rp 2.800.000/m³
     </div>
@@ -198,151 +198,151 @@
 </section>
 
 <!-- Premium Buyer Section -->
-<section class="premium-section locked">
+<section class="premium-section locked px-[160px] py-[120px] bg-gradient-to-b from-[#eef4e8] to-[#e7efe0] relative overflow-hidden">
 
-  <div class="premium-header">
+  <div class="premium-header text-center mb-[64px] relative z-[2]">
 
-    <span class="premium-badge">
+    <span class="premium-badge inline-block px-[20px] py-[12px] bg-[#d4e8c4] text-[#2f5e2f] rounded-full text-[16px] font-semibold mb-[24px]">
       Pencocokan Premium
     </span>
 
-    <h2>
+    <h2 class="text-[48px] font-bold leading-[1.1] max-w-[1000px] mx-auto mb-[24px] text-[#17201c]">
       Temukan Pembeli Kayu Siap Deal Hari Ini
     </h2>
 
-    <p>
+    <p class="text-[24px] text-[#5f6662] mb-[64px]">
       Terhubung langsung dengan pembeli kayu terverifikasi tanpa ribet dan tanpa perantara.
     </p>
 
   </div>
 
-  <div class="premium-container">
+  <div class="premium-container relative">
 
     <div class="premium-overlay">
-      <div class="premium-modal-card">
-        <div class="premium-icon">
-          <i class="fa-solid fa-crown"></i>
+      <div class="premium-modal-card pointer-events-auto w-[420px] bg-white p-[40px] rounded-[32px] text-center shadow-[0_20px_60px_rgba(0,0,0,0.12)]">
+        <div class="premium-icon w-[80px] h-[80px] flex items-center justify-center mx-auto mb-[24px] bg-[#f4ead7] rounded-full">
+          <i class="fa-solid fa-crown text-[32px] text-[#b9854b]"></i>
         </div>
-        <h3>Fitur Premium Terkunci</h3>
-        <p>
+        <h3 class="text-[32px] mb-[16px]">Fitur Premium Terkunci</h3>
+        <p class="text-[#5f6662] leading-[1.7] mb-[32px]">
           Masuk untuk membuka akses ke daftar pembeli premium terverifikasi.
         </p>
-        <button class="unlock-btn">
+        <button class="unlock-btn w-full p-[18px] bg-[#2f5e2f] text-white border-none rounded-[18px] text-[16px] font-semibold cursor-pointer transition-all duration-300 hover:bg-[#244824]">
           Buka Akses Premium
         </button>
       </div>
     </div>
 
-    <div class="buyer-grid">
+    <div class="buyer-grid grid grid-cols-3 gap-[32px] relative z-[2]">
     <!-- Card 1 -->
-    <div class="buyer-card">
+    <div class="buyer-card bg-white rounded-[28px] p-[32px] shadow-[0_8px_24px_rgba(0,0,0,0.04)] transition-all duration-300 hover:-translate-y-[6px]">
 
-      <div class="buyer-top">
+      <div class="buyer-top flex items-center gap-[16px] mb-[32px]">
 
-        <div class="buyer-icon">
-          <i class="fa-solid fa-building"></i>
+        <div class="buyer-icon w-[64px] h-[64px] flex items-center justify-center bg-[#f3efe7] rounded-full text-[28px]">
+          <i class="fa-solid fa-building text-[#b9854b] text-[28px]"></i>
         </div>
 
-        <h3>CV Karya Jati Mebel</h3>
+        <h3 class="text-[20px] font-bold">CV Karya Jati Mebel</h3>
 
       </div>
 
-      <div class="buyer-info">
+      <div class="buyer-info flex flex-col gap-[18px] mb-[32px]">
 
-        <p>
-          <i class="fa-solid fa-tree"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-tree text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Kebutuhan:</strong> Kayu Jati
         </p>
 
-        <p>
-          <i class="fa-solid fa-box"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-box text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Target:</strong> 50+ Pohon
         </p>
 
-        <p>
-          <i class="fa-solid fa-location-dot"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-location-dot text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Lokasi:</strong> Jepara, Jawa Tengah
         </p>
 
       </div>
 
-      <button class="buyer-btn">
+      <button class="buyer-btn w-full p-[18px] bg-[#25b956] text-white border-none rounded-[18px] text-[18px] font-semibold cursor-pointer transition-all duration-300 hover:bg-[#1fa14b]">
         Hubungi via WhatsApp
       </button>
 
     </div>
 
     <!-- Card 2 -->
-    <div class="buyer-card">
+    <div class="buyer-card bg-white rounded-[28px] p-[32px] shadow-[0_8px_24px_rgba(0,0,0,0.04)] transition-all duration-300 hover:-translate-y-[6px]">
 
-      <div class="buyer-top">
+      <div class="buyer-top flex items-center gap-[16px] mb-[32px]">
 
-        <div class="buyer-icon">
-          <i class="fa-solid fa-building"></i>
+        <div class="buyer-icon w-[64px] h-[64px] flex items-center justify-center bg-[#f3efe7] rounded-full text-[28px]">
+          <i class="fa-solid fa-building text-[#b9854b] text-[28px]"></i>
         </div>
 
-        <h3>PT Mahoni Indo Ekspor</h3>
+        <h3 class="text-[20px] font-bold">PT Mahoni Indo Ekspor</h3>
 
       </div>
 
-      <div class="buyer-info">
+      <div class="buyer-info flex flex-col gap-[18px] mb-[32px]">
 
-        <p>
-          <i class="fa-solid fa-tree"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-tree text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Kebutuhan:</strong> Kayu Mahoni
         </p>
 
-        <p>
-          <i class="fa-solid fa-box"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-box text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Target:</strong> 100+ Pohon
         </p>
 
-        <p>
-          <i class="fa-solid fa-location-dot"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-location-dot text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Lokasi:</strong> Pasuruan, Jawa Timur
         </p>
 
       </div>
 
-      <button class="buyer-btn">
+      <button class="buyer-btn w-full p-[18px] bg-[#25b956] text-white border-none rounded-[18px] text-[18px] font-semibold cursor-pointer transition-all duration-300 hover:bg-[#1fa14b]">
         Hubungi via WhatsApp
       </button>
 
     </div>
 
     <!-- Card 3 -->
-    <div class="buyer-card">
+    <div class="buyer-card bg-white rounded-[28px] p-[32px] shadow-[0_8px_24px_rgba(0,0,0,0.04)] transition-all duration-300 hover:-translate-y-[6px]">
 
-      <div class="buyer-top">
+      <div class="buyer-top flex items-center gap-[16px] mb-[32px]">
 
-        <div class="buyer-icon">
-          <i class="fa-solid fa-building"></i>
+        <div class="buyer-icon w-[64px] h-[64px] flex items-center justify-center bg-[#f3efe7] rounded-full text-[28px]">
+          <i class="fa-solid fa-building text-[#b9854b] text-[28px]"></i>
         </div>
 
-        <h3>Sengon Lestari Jaya</h3>
+        <h3 class="text-[20px] font-bold">Sengon Lestari Jaya</h3>
 
       </div>
 
-      <div class="buyer-info">
+      <div class="buyer-info flex flex-col gap-[18px] mb-[32px]">
 
-        <p>
-          <i class="fa-solid fa-tree"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-tree text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Kebutuhan:</strong> Kayu Sengon
         </p>
 
-        <p>
-          <i class="fa-solid fa-box"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-box text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Target:</strong> 200+ Pohon
         </p>
 
-        <p>
-          <i class="fa-solid fa-location-dot"></i>
+        <p class="flex items-center gap-[12px] text-[#42514a] text-[18px] leading-[1.6]">
+          <i class="fa-solid fa-location-dot text-[#2f5e2f] text-[16px] w-[18px]"></i>
           <strong>Lokasi:</strong> Joglo, Jawa Tengah
         </p>
 
       </div>
 
-      <button class="buyer-btn">
+      <button class="buyer-btn w-full p-[18px] bg-[#25b956] text-white border-none rounded-[18px] text-[18px] font-semibold cursor-pointer transition-all duration-300 hover:bg-[#1fa14b]">
         Hubungi via WhatsApp
       </button>
 
@@ -355,19 +355,19 @@
 </section>
 
 <!-- Footer -->
-<footer class="footer">
+<footer class="footer bg-white pt-[100px] px-[160px] pb-[40px] border-t border-[#e8e8e8]">
 
-  <div class="footer-container">
+  <div class="footer-container grid grid-cols-[1.5fr_1fr_1fr_1fr] gap-[64px] mb-[64px]">
 
     <!-- Brand -->
     <div class="footer-brand">
 
-      <div class="footer-logo">
-        <i class="fa-solid fa-seedling"></i>
-        <span>KayuPrima.</span>
+      <div class="footer-logo flex items-center gap-[12px] mb-[24px]">
+        <i class="fa-solid fa-seedling text-[#2f5e2f] text-[24px]"></i>
+        <span class="text-[28px] font-bold text-[#17201c]">KayuPrima.</span>
       </div>
 
-      <p>
+      <p class="text-[#5f6662] leading-[1.8] max-w-[320px]">
         Platform valuasi kayu #1 di Indonesia.
         Membantu pemilik lahan mendapatkan harga terbaik
         dengan menghubungkan mereka langsung ke pembeli premium.
@@ -376,46 +376,46 @@
     </div>
 
     <!-- Produk -->
-    <div class="footer-column">
+    <div class="footer-column flex flex-col gap-[18px]">
 
-      <h4>Produk</h4>
+      <h4 class="text-[18px] font-bold mb-[12px] text-[#17201c]">Produk</h4>
 
-      <a href="#">Kalkulator Harga</a>
-      <a href="#">Harga Pasar</a>
-      <a href="#">Direktori Pembeli</a>
-      <a href="#">Keanggotaan Premium</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Kalkulator Harga</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Harga Pasar</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Direktori Pembeli</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Keanggotaan Premium</a>
 
     </div>
 
     <!-- Perusahaan -->
-    <div class="footer-column">
+    <div class="footer-column flex flex-col gap-[18px]">
 
-      <h4>Perusahaan</h4>
+      <h4 class="text-[18px] font-bold mb-[12px] text-[#17201c]">Perusahaan</h4>
 
-      <a href="#">Tentang Kami</a>
-      <a href="#">Syarat & Ketentuan</a>
-      <a href="#">Kebijakan Privasi</a>
-      <a href="#">Blog & Artikel</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Tentang Kami</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Syarat & Ketentuan</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Kebijakan Privasi</a>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">Blog & Artikel</a>
 
     </div>
 
     <!-- Kontak -->
-    <div class="footer-column">
+    <div class="footer-column flex flex-col gap-[18px]">
 
-      <h4>Hubungi Kami</h4>
+      <h4 class="text-[18px] font-bold mb-[12px] text-[#17201c]">Hubungi Kami</h4>
 
-      <a href="#">
-        <i class="fa-solid fa-envelope"></i>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">
+        <i class="fa-solid fa-envelope text-[#4d7a52]"></i>
         halo@kayuprima.id
       </a>
 
-      <a href="#">
-        <i class="fa-solid fa-phone"></i>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">
+        <i class="fa-solid fa-phone text-[#4d7a52]"></i>
         +62 811 2345 6789
       </a>
 
-      <a href="#">
-        <i class="fa-solid fa-location-dot"></i>
+      <a href="#" class="flex items-center gap-[10px] no-underline text-[#5f6662] transition-all duration-300 hover:text-[#2f5e2f]">
+        <i class="fa-solid fa-location-dot text-[#4d7a52]"></i>
         Jl. Sudirman No. 45, Jakarta
       </a>
 
@@ -424,13 +424,13 @@
   </div>
 
   <!-- Bottom -->
-  <div class="footer-bottom">
+  <div class="footer-bottom flex justify-between items-center pt-[32px] border-t border-[#e8e8e8]">
 
-    <p>
+    <p class="text-[#8b8f8c] text-[14px]">
       © 2026 KayuPrima. Hak Cipta Dilindungi.
     </p>
 
-    <p>
+    <p class="text-[#8b8f8c] text-[14px]">
       Dibuat dengan Niat dan Usaha prompting, terima kasih AI.
     </p>
 
@@ -441,28 +441,28 @@
 <!-- Login Modal -->
 <div class="login-modal">
 
-  <div class="login-card">
+  <div class="login-card relative w-[420px] bg-white p-[40px] rounded-[32px] flex flex-col gap-[18px]">
 
-    <button class="close-modal">
+    <button class="close-modal absolute top-[20px] right-[20px] bg-transparent border-none text-[20px] cursor-pointer">
       <i class="fa-solid fa-xmark"></i>
     </button>
 
-    <h2>Masuk ke
-      <span>KayuPrima</span>
+    <h2 class="text-[36px]">Masuk ke
+      <span class="text-[#2f5e2f]">KayuPrima</span>
     </h2>
     
 
-    <p>
+    <p class="text-[#5f6662] leading-[1.7] mb-[12px]">
       Akses pembeli premium dan fitur valuasi eksklusif.
     </p>
 
-    <label>Masukan email anda</label>
-    <input type="email" placeholder="Email">
+    <label class="text-[14px] font-medium text-[#555] mb-[-10px]">Masukan email anda</label>
+    <input type="email" placeholder="Email" class="p-[16px] rounded-[16px] border border-[#dddddd] text-[15px] outline-none focus:border-[#2f5e2f]">
 
-    <label>Masukan password anda</label>
-    <input type="password" placeholder="Password">
+    <label class="text-[14px] font-medium text-[#555] mb-[-10px]">Masukan password anda</label>
+    <input type="password" placeholder="Password" class="p-[16px] rounded-[16px] border border-[#dddddd] text-[15px] outline-none focus:border-[#2f5e2f]">
 
-    <button class="submit-login">
+    <button class="submit-login mt-[12px] p-[18px] bg-[#2f5e2f] text-white border-none rounded-[18px] text-[16px] font-semibold cursor-pointer transition-all duration-300 hover:bg-[#244824]">
       Masuk Sekarang
     </button>
 
